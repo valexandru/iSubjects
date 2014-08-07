@@ -42,6 +42,16 @@
                                 <rect key="frame" x="0.0" y="106" width="320" height="389"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="eQw-Rd-kqN">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eQw-Rd-kqN" id="MHD-MT-3He">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="vXZ-lx-hvc" id="loU-02-4Sx"/>
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="WGb-Xw-kFS"/>
@@ -62,12 +72,38 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-72" y="-183"/>
+            <point key="canvasLocation" x="-139" y="-183"/>
+        </scene>
+        <!--Istorie View Controller-->
+        <scene sceneID="Bg0-Kh-An4">
+            <objects>
+                <viewController storyboardIdentifier="Istorie" id="0VQ-FT-LF7" customClass="IstorieViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gjx-Br-cLe"/>
+                        <viewControllerLayoutGuide type="bottom" id="pP6-bh-jSK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sNV-A7-h47">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALohimus Istorie!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xha-Cz-KGC">
+                                <rect key="frame" x="94" y="73" width="133" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oZ2-ef-isZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="403" y="76"/>
         </scene>
         <!--Fizica View Controller-->
         <scene sceneID="X85-5I-zOZ">
             <objects>
-                <viewController id="ZqH-nv-bj2" customClass="FizicaViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Fizica" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ZqH-nv-bj2" customClass="FizicaViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qqF-vg-ERZ"/>
                         <viewControllerLayoutGuide type="bottom" id="fby-tA-xGR"/>
@@ -88,7 +124,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A4E-K1-m1J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="493" y="-559"/>
+            <point key="canvasLocation" x="403" y="-615"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

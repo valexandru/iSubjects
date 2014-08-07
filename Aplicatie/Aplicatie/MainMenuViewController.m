@@ -54,12 +54,12 @@
     //Deselecting the row
     [tableView deselectRowAtIndexPath:indexPath animated: YES];
     
-    //Selecting the view controller
-    id vc= [[NSClassFromString([NSString stringWithFormat:@"%@ViewController", [self.coursesArray objectAtIndex:indexPath.row]]) alloc] init];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    id vc = [storyboard instantiateViewControllerWithIdentifier: [NSString stringWithFormat: @"%@", [self.coursesArray objectAtIndex: indexPath.row]]];
+
     NSLog(@"%@",vc);
     
-    //Setting tranzition
-    [vc setModalTransitionStyle: UIModalTransitionStyleFlipHorizontal];
+    [self.navigationController pushViewController:vc animated:YES];
 
 }
 
