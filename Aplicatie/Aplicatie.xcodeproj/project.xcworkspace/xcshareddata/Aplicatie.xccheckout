@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E019426A-E4AD-4211-BA4C-EBC1E0A47DD0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Aplicatie</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D590DA13-817D-45C6-A4D3-8AA590143BAF</key>
+		<string>https://github.com/valexandru/aplicatie-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Aplicatie/Aplicatie.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D590DA13-817D-45C6-A4D3-8AA590143BAF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/valexandru/aplicatie-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D590DA13-817D-45C6-A4D3-8AA590143BAF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D590DA13-817D-45C6-A4D3-8AA590143BAF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>aplicatie-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
