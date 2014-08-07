@@ -26,7 +26,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.chapters.separatorStyle = UITableViewCellSeparatorStyleNone;
     // Do any additional setup after loading the view.
+}
+
+- (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.chaptersArray.count;
+}
+
+-(UITableViewCell *) tableView:(UITableView *) tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell* cell;
+    
+    return cell;
 }
 
 - (void)didReceiveMemoryWarning

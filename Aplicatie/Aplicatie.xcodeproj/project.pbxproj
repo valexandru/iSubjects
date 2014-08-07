@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF73C84D1993C763009725B2 /* IstorieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF73C84C1993C763009725B2 /* IstorieViewController.m */; };
+		DF73C8501993D953009725B2 /* Lectii.m in Sources */ = {isa = PBXBuildFile; fileRef = DF73C84F1993D953009725B2 /* Lectii.m */; };
 		DFDAE29119936F0300BFFA86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAE29019936F0300BFFA86 /* Foundation.framework */; };
 		DFDAE29319936F0300BFFA86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAE29219936F0300BFFA86 /* CoreGraphics.framework */; };
 		DFDAE29519936F0300BFFA86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAE29419936F0300BFFA86 /* UIKit.framework */; };
@@ -41,6 +42,8 @@
 /* Begin PBXFileReference section */
 		DF73C84B1993C763009725B2 /* IstorieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IstorieViewController.h; sourceTree = "<group>"; };
 		DF73C84C1993C763009725B2 /* IstorieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IstorieViewController.m; sourceTree = "<group>"; };
+		DF73C84E1993D953009725B2 /* Lectii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lectii.h; sourceTree = "<group>"; };
+		DF73C84F1993D953009725B2 /* Lectii.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lectii.m; sourceTree = "<group>"; };
 		DFDAE28D19936F0300BFFA86 /* Aplicatie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aplicatie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDAE29019936F0300BFFA86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFDAE29219936F0300BFFA86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -138,6 +141,8 @@
 				DF73C84C1993C763009725B2 /* IstorieViewController.m */,
 				DFDAE2D21993804B00BFFA86 /* Istorie.jpg */,
 				DFDAE2D31993804B00BFFA86 /* Fizica.jpg */,
+				DF73C84E1993D953009725B2 /* Lectii.h */,
+				DF73C84F1993D953009725B2 /* Lectii.m */,
 				DFDAE2A819936F0300BFFA86 /* Images.xcassets */,
 				DFDAE29719936F0300BFFA86 /* Supporting Files */,
 			);
@@ -274,6 +279,7 @@
 			files = (
 				DFDAE2D81993871700BFFA86 /* FizicaViewController.m in Sources */,
 				DFDAE2C7199372BF00BFFA86 /* MainMenuViewController.m in Sources */,
+				DF73C8501993D953009725B2 /* Lectii.m in Sources */,
 				DF73C84D1993C763009725B2 /* IstorieViewController.m in Sources */,
 				DFDAE2A719936F0300BFFA86 /* ViewController.m in Sources */,
 				DFDAE2A119936F0300BFFA86 /* AppDelegate.m in Sources */,
