@@ -22,8 +22,9 @@
 		DFDAE2BA19936F0300BFFA86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFDAE2B819936F0300BFFA86 /* InfoPlist.strings */; };
 		DFDAE2BC19936F0300BFFA86 /* AplicatieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAE2BB19936F0300BFFA86 /* AplicatieTests.m */; };
 		DFDAE2C7199372BF00BFFA86 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAE2C6199372BF00BFFA86 /* MainMenuViewController.m */; };
-		DFDAE2D019937DA200BFFA86 /* Fizica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFDAE2CE19937DA200BFFA86 /* Fizica.jpg */; };
-		DFDAE2D119937DA200BFFA86 /* Istorie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFDAE2CF19937DA200BFFA86 /* Istorie.jpg */; };
+		DFDAE2D41993804B00BFFA86 /* Istorie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFDAE2D21993804B00BFFA86 /* Istorie.jpg */; };
+		DFDAE2D51993804B00BFFA86 /* Fizica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFDAE2D31993804B00BFFA86 /* Fizica.jpg */; };
+		DFDAE2D81993871700BFFA86 /* FizicaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAE2D71993871700BFFA86 /* FizicaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +59,10 @@
 		DFDAE2BB19936F0300BFFA86 /* AplicatieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AplicatieTests.m; sourceTree = "<group>"; };
 		DFDAE2C5199372BF00BFFA86 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
 		DFDAE2C6199372BF00BFFA86 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
-		DFDAE2CE19937DA200BFFA86 /* Fizica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fizica.jpg; sourceTree = "<group>"; };
-		DFDAE2CF19937DA200BFFA86 /* Istorie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Istorie.jpg; sourceTree = "<group>"; };
+		DFDAE2D21993804B00BFFA86 /* Istorie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Istorie.jpg; sourceTree = "<group>"; };
+		DFDAE2D31993804B00BFFA86 /* Fizica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fizica.jpg; sourceTree = "<group>"; };
+		DFDAE2D61993871700BFFA86 /* FizicaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FizicaViewController.h; sourceTree = "<group>"; };
+		DFDAE2D71993871700BFFA86 /* FizicaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FizicaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +129,10 @@
 				DFDAE2A619936F0300BFFA86 /* ViewController.m */,
 				DFDAE2C5199372BF00BFFA86 /* MainMenuViewController.h */,
 				DFDAE2C6199372BF00BFFA86 /* MainMenuViewController.m */,
-				DFDAE2CE19937DA200BFFA86 /* Fizica.jpg */,
-				DFDAE2CF19937DA200BFFA86 /* Istorie.jpg */,
+				DFDAE2D61993871700BFFA86 /* FizicaViewController.h */,
+				DFDAE2D71993871700BFFA86 /* FizicaViewController.m */,
+				DFDAE2D21993804B00BFFA86 /* Istorie.jpg */,
+				DFDAE2D31993804B00BFFA86 /* Fizica.jpg */,
 				DFDAE2A819936F0300BFFA86 /* Images.xcassets */,
 				DFDAE29719936F0300BFFA86 /* Supporting Files */,
 			);
@@ -239,11 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFDAE2D119937DA200BFFA86 /* Istorie.jpg in Resources */,
+				DFDAE2D51993804B00BFFA86 /* Fizica.jpg in Resources */,
 				DFDAE2A919936F0300BFFA86 /* Images.xcassets in Resources */,
+				DFDAE2D41993804B00BFFA86 /* Istorie.jpg in Resources */,
 				DFDAE29B19936F0300BFFA86 /* InfoPlist.strings in Resources */,
 				DFDAE2A419936F0300BFFA86 /* Main.storyboard in Resources */,
-				DFDAE2D019937DA200BFFA86 /* Fizica.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFDAE2D81993871700BFFA86 /* FizicaViewController.m in Sources */,
 				DFDAE2C7199372BF00BFFA86 /* MainMenuViewController.m in Sources */,
 				DFDAE2A719936F0300BFFA86 /* ViewController.m in Sources */,
 				DFDAE2A119936F0300BFFA86 /* AppDelegate.m in Sources */,

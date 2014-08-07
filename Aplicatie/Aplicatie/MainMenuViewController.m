@@ -33,6 +33,8 @@
     [self.coursesArray addObject: @"Fizica"];
     [self.coursesArray addObject: @"Istorie"];
     [super viewDidLoad];
+    
+    self.courses.separatorStyle = UITableViewCellSeparatorStyleNone;
     // Do any additional setup after loading the view.
 }
 
@@ -47,6 +49,20 @@
     return self.numberOfCourses;
 }
 
+-(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //Deselecting the row
+    [tableView deselectRowAtIndexPath:indexPath animated: YES];
+    
+    //Selecting the view controller
+    id vc= [[NSClassFromString([NSString stringWithFormat:@"%@ViewController", [self.coursesArray objectAtIndex:indexPath.row]]) alloc] init];
+    NSLog(@"%@",vc);
+    
+    //Setting tranzition
+    [vc setModalTransitionStyle: UIModalTransitionStyleFlipHorizontal];
+
+}
+
 -(UITableViewCell *) tableView: (UITableView *) tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSLog(@"Ma intreaba de linia: %d", indexPath.row);
@@ -58,7 +74,9 @@
         NSLog(@"Se creeaza un nou cell");
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier: identifier];
     }
+    
     cell.imageView.image = [UIImage imageNamed: [NSString stringWithFormat:@"%@.jpg", [self.coursesArray objectAtIndex:indexPath.row]]];
+    cell.imageView.contentMode = UIViewContentModeScaleAspectFit;
     cell.textLabel.text = [NSString stringWithFormat:@"%@", [self.coursesArray objectAtIndex:indexPath.row]];
     return cell;
 }
