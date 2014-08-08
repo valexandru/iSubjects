@@ -12,4 +12,6 @@
 
 @property NSDictionary *lectii;
 
+-(void)initializare;
+
 @end

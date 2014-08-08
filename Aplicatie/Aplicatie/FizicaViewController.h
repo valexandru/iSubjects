@@ -13,5 +13,6 @@
 
 @property IBOutlet UITableView* chapters;
 @property NSMutableArray* chaptersArray;
+@property NSString* titleForLayout;
 
 @end

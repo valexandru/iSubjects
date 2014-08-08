@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Lectii.h"
 
 @interface ChapterViewController : UIViewController
+<UITableViewDataSource, UITabBarDelegate>
 
+@property NSString *titleChapter;
 @property IBOutlet UILabel* titleForLayout;
 @property IBOutlet UITableView* lessonsList;
+@property Lectii *lectii;
+@property NSDictionary *dict;
 
 @end

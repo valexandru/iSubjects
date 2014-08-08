@@ -170,7 +170,7 @@
         <!--Chapter View Controller-->
         <scene sceneID="ARc-2B-4FS">
             <objects>
-                <viewController id="Y03-dP-k6M" customClass="ChapterViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="chapter-vc" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y03-dP-k6M" customClass="ChapterViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tU4-TE-J8f"/>
                         <viewControllerLayoutGuide type="bottom" id="qoh-AG-SHJ"/>
@@ -179,20 +179,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Capitol" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tey-el-Ktl">
-                                <rect key="frame" x="138" y="76" width="55" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Capitol" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tey-el-Ktl">
+                                <rect key="frame" x="86" y="75" width="149" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="hHI-s2-n3T">
-                                <rect key="frame" x="0.0" y="120" width="320" height="336"/>
+                                <rect key="frame" x="0.0" y="116" width="320" height="336"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <outlet property="dataSource" destination="Y03-dP-k6M" id="UOb-u6-dJJ"/>
-                                    <outlet property="delegate" destination="Y03-dP-k6M" id="KNl-QO-fB5"/>
+                                    <outlet property="dataSource" destination="Y03-dP-k6M" id="Hjo-Uw-b3l"/>
+                                    <outlet property="delegate" destination="Y03-dP-k6M" id="NZu-KI-2wA"/>
                                 </connections>
                             </tableView>
                         </subviews>
