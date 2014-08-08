@@ -12,7 +12,7 @@
 
 -(void)initializare
 {
-    array = @{@"Fizica" : @{@"Termodinamica" : @{}, @"Mecanica" : @{}} , @"Chimie" :@""};
+    self.lectii = @{@"Fizica" : @{@"Termodinamica" : @{}, @"Mecanica" : @{}} , @"Chimie" :@""};
 }
 
 @end
