@@ -25,6 +25,14 @@
 
 - (void)viewDidLoad
 {
+    if (self.chaptersArray==nil)
+    {
+        self.chaptersArray = [[NSMutableArray alloc] init];
+    }
+    [self.chaptersArray addObject: @"Termodinamica"];
+    [self.chaptersArray addObject: @"Mecanica"];
+    [self.chaptersArray addObject: @"Optica"];
+    [self.chaptersArray addObject: @"Electricitate"];
     [super viewDidLoad];
     self.chapters.separatorStyle = UITableViewCellSeparatorStyleNone;
     // Do any additional setup after loading the view.
@@ -37,8 +45,19 @@
 
 -(UITableViewCell *) tableView:(UITableView *) tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell* cell;
+    NSLog(@"FizicaViewController: Ma intreaba de linia: %d", indexPath.row);
+    static NSString* identifier = @"Chapter identifier";
     
+    UITableViewCell* cell = [tableView dequeueReusableCellWithIdentifier: identifier];
+    if (cell==nil)
+    {
+        NSLog(@"Se creeaza un nou cell");
+        cell=[[UITableViewCell alloc] initWithStyle: UITableViewCellStyleDefault reuseIdentifier: identifier];
+    }
+    
+    cell.imageView.image = [UIImage imageNamed: [NSString stringWithFormat:@"%@.jpg", [self.chaptersArray objectAtIndex: indexPath.row]]];
+    cell.imageView.contentMode = UIViewContentModeScaleAspectFit;
+    cell.textLabel.text = [NSString stringWithFormat: @"%@", [self.chaptersArray objectAtIndex:indexPath.row]];
     return cell;
 }
 

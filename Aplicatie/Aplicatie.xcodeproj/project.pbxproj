@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		DF73C84D1993C763009725B2 /* IstorieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF73C84C1993C763009725B2 /* IstorieViewController.m */; };
 		DF73C8501993D953009725B2 /* Lectii.m in Sources */ = {isa = PBXBuildFile; fileRef = DF73C84F1993D953009725B2 /* Lectii.m */; };
+		DF73C8541994C18A009725B2 /* Termodinamica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF73C8531994C18A009725B2 /* Termodinamica.jpg */; };
+		DF73C8561994C5B4009725B2 /* Mecanica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF73C8551994C5B4009725B2 /* Mecanica.jpg */; };
+		DF73C8581994C8FE009725B2 /* Optica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF73C8571994C8FE009725B2 /* Optica.jpg */; };
+		DF73C85A1994CA29009725B2 /* Electricitate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF73C8591994CA29009725B2 /* Electricitate.jpg */; };
 		DFDAE29119936F0300BFFA86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAE29019936F0300BFFA86 /* Foundation.framework */; };
 		DFDAE29319936F0300BFFA86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAE29219936F0300BFFA86 /* CoreGraphics.framework */; };
 		DFDAE29519936F0300BFFA86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAE29419936F0300BFFA86 /* UIKit.framework */; };
@@ -44,6 +48,10 @@
 		DF73C84C1993C763009725B2 /* IstorieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IstorieViewController.m; sourceTree = "<group>"; };
 		DF73C84E1993D953009725B2 /* Lectii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lectii.h; sourceTree = "<group>"; };
 		DF73C84F1993D953009725B2 /* Lectii.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lectii.m; sourceTree = "<group>"; };
+		DF73C8531994C18A009725B2 /* Termodinamica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Termodinamica.jpg; sourceTree = "<group>"; };
+		DF73C8551994C5B4009725B2 /* Mecanica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mecanica.jpg; sourceTree = "<group>"; };
+		DF73C8571994C8FE009725B2 /* Optica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Optica.jpg; sourceTree = "<group>"; };
+		DF73C8591994CA29009725B2 /* Electricitate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Electricitate.jpg; sourceTree = "<group>"; };
 		DFDAE28D19936F0300BFFA86 /* Aplicatie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aplicatie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDAE29019936F0300BFFA86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFDAE29219936F0300BFFA86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -139,10 +147,14 @@
 				DFDAE2D71993871700BFFA86 /* FizicaViewController.m */,
 				DF73C84B1993C763009725B2 /* IstorieViewController.h */,
 				DF73C84C1993C763009725B2 /* IstorieViewController.m */,
-				DFDAE2D21993804B00BFFA86 /* Istorie.jpg */,
-				DFDAE2D31993804B00BFFA86 /* Fizica.jpg */,
 				DF73C84E1993D953009725B2 /* Lectii.h */,
 				DF73C84F1993D953009725B2 /* Lectii.m */,
+				DFDAE2D21993804B00BFFA86 /* Istorie.jpg */,
+				DFDAE2D31993804B00BFFA86 /* Fizica.jpg */,
+				DF73C8531994C18A009725B2 /* Termodinamica.jpg */,
+				DF73C8551994C5B4009725B2 /* Mecanica.jpg */,
+				DF73C8571994C8FE009725B2 /* Optica.jpg */,
+				DF73C8591994CA29009725B2 /* Electricitate.jpg */,
 				DFDAE2A819936F0300BFFA86 /* Images.xcassets */,
 				DFDAE29719936F0300BFFA86 /* Supporting Files */,
 			);
@@ -255,8 +267,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFDAE2D51993804B00BFFA86 /* Fizica.jpg in Resources */,
+				DF73C8581994C8FE009725B2 /* Optica.jpg in Resources */,
+				DF73C8541994C18A009725B2 /* Termodinamica.jpg in Resources */,
 				DFDAE2A919936F0300BFFA86 /* Images.xcassets in Resources */,
+				DF73C8561994C5B4009725B2 /* Mecanica.jpg in Resources */,
 				DFDAE2D41993804B00BFFA86 /* Istorie.jpg in Resources */,
+				DF73C85A1994CA29009725B2 /* Electricitate.jpg in Resources */,
 				DFDAE29B19936F0300BFFA86 /* InfoPlist.strings in Resources */,
 				DFDAE2A419936F0300BFFA86 /* Main.storyboard in Resources */,
 			);

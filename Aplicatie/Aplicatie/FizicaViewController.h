@@ -12,6 +12,6 @@
 <UITableViewDataSource, UITableViewDelegate>
 
 @property IBOutlet UITableView* chapters;
-@property NSArray* chaptersArray;
+@property NSMutableArray* chaptersArray;
 
 @end
