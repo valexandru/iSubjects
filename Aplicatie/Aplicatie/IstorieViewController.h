@@ -10,4 +10,7 @@
 
 @interface IstorieViewController : UIViewController
 
+@property IBOutlet UITableView *listaIstorie;
+@property NSMutableArray *lectiiIstorie;
+
 @end
