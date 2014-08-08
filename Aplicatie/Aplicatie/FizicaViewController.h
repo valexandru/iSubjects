@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface FizicaViewController : UIViewController
+<UITableViewDataSource, UITableViewDelegate>
+
+@property IBOutlet UITableView* chapters;
+@property NSArray* chaptersArray;
 
 @end
