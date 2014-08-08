@@ -13,6 +13,7 @@
 		DF73C8561994C5B4009725B2 /* Mecanica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF73C8551994C5B4009725B2 /* Mecanica.jpg */; };
 		DF73C8581994C8FE009725B2 /* Optica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF73C8571994C8FE009725B2 /* Optica.jpg */; };
 		DF73C85A1994CA29009725B2 /* Electricitate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF73C8591994CA29009725B2 /* Electricitate.jpg */; };
+		DF73C85D1994CF5A009725B2 /* ChapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF73C85C1994CF5A009725B2 /* ChapterViewController.m */; };
 		DFDAE29119936F0300BFFA86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAE29019936F0300BFFA86 /* Foundation.framework */; };
 		DFDAE29319936F0300BFFA86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAE29219936F0300BFFA86 /* CoreGraphics.framework */; };
 		DFDAE29519936F0300BFFA86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAE29419936F0300BFFA86 /* UIKit.framework */; };
@@ -52,6 +53,8 @@
 		DF73C8551994C5B4009725B2 /* Mecanica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mecanica.jpg; sourceTree = "<group>"; };
 		DF73C8571994C8FE009725B2 /* Optica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Optica.jpg; sourceTree = "<group>"; };
 		DF73C8591994CA29009725B2 /* Electricitate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Electricitate.jpg; sourceTree = "<group>"; };
+		DF73C85B1994CF5A009725B2 /* ChapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterViewController.h; sourceTree = "<group>"; };
+		DF73C85C1994CF5A009725B2 /* ChapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterViewController.m; sourceTree = "<group>"; };
 		DFDAE28D19936F0300BFFA86 /* Aplicatie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aplicatie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDAE29019936F0300BFFA86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFDAE29219936F0300BFFA86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -147,6 +150,8 @@
 				DFDAE2D71993871700BFFA86 /* FizicaViewController.m */,
 				DF73C84B1993C763009725B2 /* IstorieViewController.h */,
 				DF73C84C1993C763009725B2 /* IstorieViewController.m */,
+				DF73C85B1994CF5A009725B2 /* ChapterViewController.h */,
+				DF73C85C1994CF5A009725B2 /* ChapterViewController.m */,
 				DF73C84E1993D953009725B2 /* Lectii.h */,
 				DF73C84F1993D953009725B2 /* Lectii.m */,
 				DFDAE2D21993804B00BFFA86 /* Istorie.jpg */,
@@ -293,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF73C85D1994CF5A009725B2 /* ChapterViewController.m in Sources */,
 				DFDAE2D81993871700BFFA86 /* FizicaViewController.m in Sources */,
 				DFDAE2C7199372BF00BFFA86 /* MainMenuViewController.m in Sources */,
 				DF73C8501993D953009725B2 /* Lectii.m in Sources */,
