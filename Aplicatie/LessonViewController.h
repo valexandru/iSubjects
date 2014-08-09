@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface LessonViewController : UIViewController
+//<UIScrollViewDelegate>
+//{
+//    UIScrollView *mainScrollView;
+//}
 
 @property IBOutlet UILabel *titleForView;
 @property IBOutlet UILabel *definitie1;
@@ -17,6 +21,15 @@
 @property IBOutlet UILabel *definitie1Text;
 @property IBOutlet UILabel *definitie2Text;
 @property IBOutlet UILabel *descriereText;
+@property IBOutlet UIScrollView *MainScrollView;
+@property IBOutlet UIWebView *video;
+
+@property IBOutlet UIView *contentView;
+@property NSMutableArray *viewsInScrollView;
+
+@property NSLayoutConstraint *bottomConstraint;
+
+-(IBAction)test:(id)sender;
 
 @property NSString *def1;
 @property NSString *def2;
@@ -25,4 +38,7 @@
 @property NSString *descriereName;
 @property NSString *descr;
 @property NSString *titleView;
+
+//-(void) addScrollView;
+
 @end
