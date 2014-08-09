@@ -8,6 +8,7 @@
 
 #import "ChapterViewController.h"
 #import "Lectii.h"
+#import "LessonViewController.h"
 
 @interface ChapterViewController ()
 
@@ -45,18 +46,23 @@
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
+    NSArray *a = [self.lectii.lectii valueForKey:self.titleChapter];
     //return numarul de sectiuni
-    return self.lectii.lectii.count;
+    return a.count;
 }
 
 -(NSInteger) tableView: (UITableView*) tableView numberOfRowsInSection:(NSInteger)section
 {
-    return self.dict.count;
+    NSArray *a = [self.lectii.lectii valueForKey:self.titleChapter];
+    NSDictionary *subc = [a objectAtIndex:section];
+    NSArray *array = [subc valueForKey:[[subc allKeys] objectAtIndex:0]];
+    return array.count;
 }
 
 -(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
     NSArray *a = [self.lectii.lectii valueForKey:self.titleChapter];
+    NSLog(@"%@",a);
     NSDictionary *chapter = [a objectAtIndex:section];
     return [[chapter allKeys] objectAtIndex:0];
 }
@@ -76,13 +82,56 @@
     NSDictionary *chapter = [a objectAtIndex:indexPath.section];
     NSString *key = [[chapter allKeys] objectAtIndex:0];
     NSArray *array = [chapter valueForKey:key];
+    NSLog(@"%@ %ld",array,(long)indexPath.row);
     
     NSDictionary *subchapterDict = [array objectAtIndex:indexPath.row];
     NSString *subchapter = [[subchapterDict allKeys] objectAtIndex:0];
-    NSLog(@"DE AICI %@",subchapter);
+    //NSLog(@"DE AICI %@",supo bchapter);
     cell.textLabel.text = subchapter;
     return  cell;
     
+}
+
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    LessonViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"lesson-vc"];
+    
+    NSArray *a = [self.lectii.lectii valueForKey:self.titleChapter];
+    NSDictionary *chapter = [a objectAtIndex:indexPath.section];
+    NSString *key = [[chapter allKeys] objectAtIndex:0];
+    NSArray *array = [chapter valueForKey:key];
+  //  NSLog(@"%@ %ld",array,(long)indexPath.row);
+    
+    NSDictionary *subchapterDict = [array objectAtIndex:indexPath.row];
+    NSString *subchapter = [[subchapterDict allKeys] objectAtIndex:0];
+    //NSLog(@"%@\n%@",[[subchapterDict allKeys] objectAtIndex:0], subchapter);
+    NSArray *arrayContent = [subchapterDict valueForKey: subchapter];
+    vc.titleView= subchapter;
+    
+    NSString *deflabel, *deftext;
+    
+    NSDictionary *def1 = [arrayContent objectAtIndex:0];
+    deflabel = [[def1 allKeys] objectAtIndex:0];
+    deftext = [def1 valueForKey: deflabel];
+    vc.def1Name=deflabel;
+    vc.def1=deftext;
+    
+    NSDictionary *def2 = [arrayContent objectAtIndex:1];
+    deflabel = [[def2 allKeys] objectAtIndex:0];
+    deftext = [def2 valueForKey: deflabel];
+    vc.def2Name=deflabel;
+    vc.def2=deftext;
+    
+    NSDictionary *descriere = [arrayContent objectAtIndex:2];
+    deflabel = [[descriere allKeys] objectAtIndex:0];
+    deftext = [descriere valueForKey: deflabel];
+    vc.descriereName=deflabel;
+    vc.descr=deftext;
+    NSLog(@"%@ %@",def2, deftext);
+//    vc.titleChapter = self.titleForLayout;
+   [self.navigationController pushViewController:vc animated:YES];
 }
 
 /*

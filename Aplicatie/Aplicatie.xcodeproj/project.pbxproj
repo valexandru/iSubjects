@@ -14,6 +14,7 @@
 		DF73C8581994C8FE009725B2 /* Optica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF73C8571994C8FE009725B2 /* Optica.jpg */; };
 		DF73C85A1994CA29009725B2 /* Electricitate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF73C8591994CA29009725B2 /* Electricitate.jpg */; };
 		DF73C85D1994CF5A009725B2 /* ChapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF73C85C1994CF5A009725B2 /* ChapterViewController.m */; };
+		DF73C860199614A0009725B2 /* LessonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF73C85F199614A0009725B2 /* LessonViewController.m */; };
 		DFDAE29119936F0300BFFA86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAE29019936F0300BFFA86 /* Foundation.framework */; };
 		DFDAE29319936F0300BFFA86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAE29219936F0300BFFA86 /* CoreGraphics.framework */; };
 		DFDAE29519936F0300BFFA86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAE29419936F0300BFFA86 /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		DFDAE29D19936F0300BFFA86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAE29C19936F0300BFFA86 /* main.m */; };
 		DFDAE2A119936F0300BFFA86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAE2A019936F0300BFFA86 /* AppDelegate.m */; };
 		DFDAE2A419936F0300BFFA86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDAE2A219936F0300BFFA86 /* Main.storyboard */; };
-		DFDAE2A719936F0300BFFA86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAE2A619936F0300BFFA86 /* ViewController.m */; };
 		DFDAE2A919936F0300BFFA86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFDAE2A819936F0300BFFA86 /* Images.xcassets */; };
 		DFDAE2B019936F0300BFFA86 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAE2AF19936F0300BFFA86 /* XCTest.framework */; };
 		DFDAE2B119936F0300BFFA86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDAE29019936F0300BFFA86 /* Foundation.framework */; };
@@ -55,6 +55,8 @@
 		DF73C8591994CA29009725B2 /* Electricitate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Electricitate.jpg; sourceTree = "<group>"; };
 		DF73C85B1994CF5A009725B2 /* ChapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterViewController.h; sourceTree = "<group>"; };
 		DF73C85C1994CF5A009725B2 /* ChapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterViewController.m; sourceTree = "<group>"; };
+		DF73C85E199614A0009725B2 /* LessonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LessonViewController.h; path = ../LessonViewController.h; sourceTree = "<group>"; };
+		DF73C85F199614A0009725B2 /* LessonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LessonViewController.m; path = ../LessonViewController.m; sourceTree = "<group>"; };
 		DFDAE28D19936F0300BFFA86 /* Aplicatie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aplicatie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDAE29019936F0300BFFA86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFDAE29219936F0300BFFA86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,8 +68,6 @@
 		DFDAE29F19936F0300BFFA86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DFDAE2A019936F0300BFFA86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DFDAE2A319936F0300BFFA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DFDAE2A519936F0300BFFA86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DFDAE2A619936F0300BFFA86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DFDAE2A819936F0300BFFA86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DFDAE2AE19936F0300BFFA86 /* AplicatieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AplicatieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDAE2AF19936F0300BFFA86 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -142,8 +142,6 @@
 				DFDAE29F19936F0300BFFA86 /* AppDelegate.h */,
 				DFDAE2A019936F0300BFFA86 /* AppDelegate.m */,
 				DFDAE2A219936F0300BFFA86 /* Main.storyboard */,
-				DFDAE2A519936F0300BFFA86 /* ViewController.h */,
-				DFDAE2A619936F0300BFFA86 /* ViewController.m */,
 				DFDAE2C5199372BF00BFFA86 /* MainMenuViewController.h */,
 				DFDAE2C6199372BF00BFFA86 /* MainMenuViewController.m */,
 				DFDAE2D61993871700BFFA86 /* FizicaViewController.h */,
@@ -152,6 +150,8 @@
 				DF73C84C1993C763009725B2 /* IstorieViewController.m */,
 				DF73C85B1994CF5A009725B2 /* ChapterViewController.h */,
 				DF73C85C1994CF5A009725B2 /* ChapterViewController.m */,
+				DF73C85E199614A0009725B2 /* LessonViewController.h */,
+				DF73C85F199614A0009725B2 /* LessonViewController.m */,
 				DF73C84E1993D953009725B2 /* Lectii.h */,
 				DF73C84F1993D953009725B2 /* Lectii.m */,
 				DFDAE2D21993804B00BFFA86 /* Istorie.jpg */,
@@ -302,8 +302,8 @@
 				DFDAE2D81993871700BFFA86 /* FizicaViewController.m in Sources */,
 				DFDAE2C7199372BF00BFFA86 /* MainMenuViewController.m in Sources */,
 				DF73C8501993D953009725B2 /* Lectii.m in Sources */,
+				DF73C860199614A0009725B2 /* LessonViewController.m in Sources */,
 				DF73C84D1993C763009725B2 /* IstorieViewController.m in Sources */,
-				DFDAE2A719936F0300BFFA86 /* ViewController.m in Sources */,
 				DFDAE2A119936F0300BFFA86 /* AppDelegate.m in Sources */,
 				DFDAE29D19936F0300BFFA86 /* main.m in Sources */,
 			);
