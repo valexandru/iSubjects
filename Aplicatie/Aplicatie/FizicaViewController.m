@@ -36,6 +36,7 @@
     [self.chaptersArray addObject: @"Electricitate"];
     [super viewDidLoad];
     self.chapters.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.title = @"Fizica";
     // Do any additional setup after loading the view.
 }
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF2661E2199A014A00F73010 /* JDSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2661E1199A014A00F73010 /* JDSideMenu.m */; };
+		DF2661E5199A01EC00F73010 /* JDMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2661E4199A01EC00F73010 /* JDMenuViewController.m */; };
+		DF2661E9199A02A900F73010 /* menuwallpaper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2661E8199A02A900F73010 /* menuwallpaper@2x.png */; };
+		DF2661EC199A02EE00F73010 /* UIViewController+JDSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2661EB199A02EE00F73010 /* UIViewController+JDSideMenu.m */; };
 		DF73C84D1993C763009725B2 /* IstorieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF73C84C1993C763009725B2 /* IstorieViewController.m */; };
 		DF73C8501993D953009725B2 /* Lectii.m in Sources */ = {isa = PBXBuildFile; fileRef = DF73C84F1993D953009725B2 /* Lectii.m */; };
 		DF73C8541994C18A009725B2 /* Termodinamica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF73C8531994C18A009725B2 /* Termodinamica.jpg */; };
@@ -45,6 +49,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF2661E0199A014A00F73010 /* JDSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSideMenu.h; sourceTree = "<group>"; };
+		DF2661E1199A014A00F73010 /* JDSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSideMenu.m; sourceTree = "<group>"; };
+		DF2661E3199A01EC00F73010 /* JDMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMenuViewController.h; sourceTree = "<group>"; };
+		DF2661E4199A01EC00F73010 /* JDMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMenuViewController.m; sourceTree = "<group>"; };
+		DF2661E8199A02A900F73010 /* menuwallpaper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menuwallpaper@2x.png"; path = "../menuwallpaper@2x.png"; sourceTree = "<group>"; };
+		DF2661EA199A02EE00F73010 /* UIViewController+JDSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JDSideMenu.h"; sourceTree = "<group>"; };
+		DF2661EB199A02EE00F73010 /* UIViewController+JDSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JDSideMenu.m"; sourceTree = "<group>"; };
 		DF73C84B1993C763009725B2 /* IstorieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IstorieViewController.h; sourceTree = "<group>"; };
 		DF73C84C1993C763009725B2 /* IstorieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IstorieViewController.m; sourceTree = "<group>"; };
 		DF73C84E1993D953009725B2 /* Lectii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lectii.h; sourceTree = "<group>"; };
@@ -57,21 +68,21 @@
 		DF73C85C1994CF5A009725B2 /* ChapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterViewController.m; sourceTree = "<group>"; };
 		DF73C85E199614A0009725B2 /* LessonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LessonViewController.h; path = ../LessonViewController.h; sourceTree = "<group>"; };
 		DF73C85F199614A0009725B2 /* LessonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LessonViewController.m; path = ../LessonViewController.m; sourceTree = "<group>"; };
-		DFDAE28D19936F0300BFFA86 /* Aplicatie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aplicatie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDAE28D19936F0300BFFA86 /* iSubjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSubjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDAE29019936F0300BFFA86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFDAE29219936F0300BFFA86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DFDAE29419936F0300BFFA86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DFDAE29819936F0300BFFA86 /* Aplicatie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aplicatie-Info.plist"; sourceTree = "<group>"; };
+		DFDAE29819936F0300BFFA86 /* iSubjects-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSubjects-Info.plist"; sourceTree = "<group>"; };
 		DFDAE29A19936F0300BFFA86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DFDAE29C19936F0300BFFA86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DFDAE29E19936F0300BFFA86 /* Aplicatie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aplicatie-Prefix.pch"; sourceTree = "<group>"; };
+		DFDAE29E19936F0300BFFA86 /* iSubjects-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSubjects-Prefix.pch"; sourceTree = "<group>"; };
 		DFDAE29F19936F0300BFFA86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DFDAE2A019936F0300BFFA86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DFDAE2A319936F0300BFFA86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFDAE2A819936F0300BFFA86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DFDAE2AE19936F0300BFFA86 /* AplicatieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AplicatieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFDAE2AE19936F0300BFFA86 /* iSubjectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSubjectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDAE2AF19936F0300BFFA86 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		DFDAE2B719936F0300BFFA86 /* AplicatieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AplicatieTests-Info.plist"; sourceTree = "<group>"; };
+		DFDAE2B719936F0300BFFA86 /* iSubjectsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSubjectsTests-Info.plist"; sourceTree = "<group>"; };
 		DFDAE2B919936F0300BFFA86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DFDAE2BB19936F0300BFFA86 /* AplicatieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AplicatieTests.m; sourceTree = "<group>"; };
 		DFDAE2C5199372BF00BFFA86 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
@@ -106,6 +117,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF072C1519991340006ABE1B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DF2661E8199A02A900F73010 /* menuwallpaper@2x.png */,
+				DFDAE2D21993804B00BFFA86 /* Istorie.jpg */,
+				DFDAE2D31993804B00BFFA86 /* Fizica.jpg */,
+				DF73C8531994C18A009725B2 /* Termodinamica.jpg */,
+				DF73C8551994C5B4009725B2 /* Mecanica.jpg */,
+				DF73C8571994C8FE009725B2 /* Optica.jpg */,
+				DF73C8591994CA29009725B2 /* Electricitate.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		DFDAE28419936F0300BFFA86 = {
 			isa = PBXGroup;
 			children = (
@@ -119,8 +144,8 @@
 		DFDAE28E19936F0300BFFA86 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DFDAE28D19936F0300BFFA86 /* Aplicatie.app */,
-				DFDAE2AE19936F0300BFFA86 /* AplicatieTests.xctest */,
+				DFDAE28D19936F0300BFFA86 /* iSubjects.app */,
+				DFDAE2AE19936F0300BFFA86 /* iSubjectsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,6 +167,12 @@
 				DFDAE29F19936F0300BFFA86 /* AppDelegate.h */,
 				DFDAE2A019936F0300BFFA86 /* AppDelegate.m */,
 				DFDAE2A219936F0300BFFA86 /* Main.storyboard */,
+				DF2661E0199A014A00F73010 /* JDSideMenu.h */,
+				DF2661E1199A014A00F73010 /* JDSideMenu.m */,
+				DF2661E3199A01EC00F73010 /* JDMenuViewController.h */,
+				DF2661E4199A01EC00F73010 /* JDMenuViewController.m */,
+				DF2661EA199A02EE00F73010 /* UIViewController+JDSideMenu.h */,
+				DF2661EB199A02EE00F73010 /* UIViewController+JDSideMenu.m */,
 				DFDAE2C5199372BF00BFFA86 /* MainMenuViewController.h */,
 				DFDAE2C6199372BF00BFFA86 /* MainMenuViewController.m */,
 				DFDAE2D61993871700BFFA86 /* FizicaViewController.h */,
@@ -154,12 +185,7 @@
 				DF73C85F199614A0009725B2 /* LessonViewController.m */,
 				DF73C84E1993D953009725B2 /* Lectii.h */,
 				DF73C84F1993D953009725B2 /* Lectii.m */,
-				DFDAE2D21993804B00BFFA86 /* Istorie.jpg */,
-				DFDAE2D31993804B00BFFA86 /* Fizica.jpg */,
-				DF73C8531994C18A009725B2 /* Termodinamica.jpg */,
-				DF73C8551994C5B4009725B2 /* Mecanica.jpg */,
-				DF73C8571994C8FE009725B2 /* Optica.jpg */,
-				DF73C8591994CA29009725B2 /* Electricitate.jpg */,
+				DF072C1519991340006ABE1B /* Images */,
 				DFDAE2A819936F0300BFFA86 /* Images.xcassets */,
 				DFDAE29719936F0300BFFA86 /* Supporting Files */,
 			);
@@ -169,10 +195,10 @@
 		DFDAE29719936F0300BFFA86 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DFDAE29819936F0300BFFA86 /* Aplicatie-Info.plist */,
+				DFDAE29819936F0300BFFA86 /* iSubjects-Info.plist */,
 				DFDAE29919936F0300BFFA86 /* InfoPlist.strings */,
 				DFDAE29C19936F0300BFFA86 /* main.m */,
-				DFDAE29E19936F0300BFFA86 /* Aplicatie-Prefix.pch */,
+				DFDAE29E19936F0300BFFA86 /* iSubjects-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -189,7 +215,7 @@
 		DFDAE2B619936F0300BFFA86 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DFDAE2B719936F0300BFFA86 /* AplicatieTests-Info.plist */,
+				DFDAE2B719936F0300BFFA86 /* iSubjectsTests-Info.plist */,
 				DFDAE2B819936F0300BFFA86 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -198,9 +224,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DFDAE28C19936F0300BFFA86 /* Aplicatie */ = {
+		DFDAE28C19936F0300BFFA86 /* iSubjects */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFDAE2BF19936F0300BFFA86 /* Build configuration list for PBXNativeTarget "Aplicatie" */;
+			buildConfigurationList = DFDAE2BF19936F0300BFFA86 /* Build configuration list for PBXNativeTarget "iSubjects" */;
 			buildPhases = (
 				DFDAE28919936F0300BFFA86 /* Sources */,
 				DFDAE28A19936F0300BFFA86 /* Frameworks */,
@@ -210,14 +236,14 @@
 			);
 			dependencies = (
 			);
-			name = Aplicatie;
+			name = iSubjects;
 			productName = Aplicatie;
-			productReference = DFDAE28D19936F0300BFFA86 /* Aplicatie.app */;
+			productReference = DFDAE28D19936F0300BFFA86 /* iSubjects.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DFDAE2AD19936F0300BFFA86 /* AplicatieTests */ = {
+		DFDAE2AD19936F0300BFFA86 /* iSubjectsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DFDAE2C219936F0300BFFA86 /* Build configuration list for PBXNativeTarget "AplicatieTests" */;
+			buildConfigurationList = DFDAE2C219936F0300BFFA86 /* Build configuration list for PBXNativeTarget "iSubjectsTests" */;
 			buildPhases = (
 				DFDAE2AA19936F0300BFFA86 /* Sources */,
 				DFDAE2AB19936F0300BFFA86 /* Frameworks */,
@@ -228,9 +254,9 @@
 			dependencies = (
 				DFDAE2B419936F0300BFFA86 /* PBXTargetDependency */,
 			);
-			name = AplicatieTests;
+			name = iSubjectsTests;
 			productName = AplicatieTests;
-			productReference = DFDAE2AE19936F0300BFFA86 /* AplicatieTests.xctest */;
+			productReference = DFDAE2AE19936F0300BFFA86 /* iSubjectsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -242,12 +268,15 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "___FULLUSERNAME___";
 				TargetAttributes = {
+					DFDAE28C19936F0300BFFA86 = {
+						DevelopmentTeam = XTTALVMGC6;
+					};
 					DFDAE2AD19936F0300BFFA86 = {
 						TestTargetID = DFDAE28C19936F0300BFFA86;
 					};
 				};
 			};
-			buildConfigurationList = DFDAE28819936F0300BFFA86 /* Build configuration list for PBXProject "Aplicatie" */;
+			buildConfigurationList = DFDAE28819936F0300BFFA86 /* Build configuration list for PBXProject "iSubjects" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -260,8 +289,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DFDAE28C19936F0300BFFA86 /* Aplicatie */,
-				DFDAE2AD19936F0300BFFA86 /* AplicatieTests */,
+				DFDAE28C19936F0300BFFA86 /* iSubjects */,
+				DFDAE2AD19936F0300BFFA86 /* iSubjectsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -277,6 +306,7 @@
 				DFDAE2A919936F0300BFFA86 /* Images.xcassets in Resources */,
 				DF73C8561994C5B4009725B2 /* Mecanica.jpg in Resources */,
 				DFDAE2D41993804B00BFFA86 /* Istorie.jpg in Resources */,
+				DF2661E9199A02A900F73010 /* menuwallpaper@2x.png in Resources */,
 				DF73C85A1994CA29009725B2 /* Electricitate.jpg in Resources */,
 				DFDAE29B19936F0300BFFA86 /* InfoPlist.strings in Resources */,
 				DFDAE2A419936F0300BFFA86 /* Main.storyboard in Resources */,
@@ -302,10 +332,13 @@
 				DFDAE2D81993871700BFFA86 /* FizicaViewController.m in Sources */,
 				DFDAE2C7199372BF00BFFA86 /* MainMenuViewController.m in Sources */,
 				DF73C8501993D953009725B2 /* Lectii.m in Sources */,
+				DF2661E2199A014A00F73010 /* JDSideMenu.m in Sources */,
+				DF2661EC199A02EE00F73010 /* UIViewController+JDSideMenu.m in Sources */,
 				DF73C860199614A0009725B2 /* LessonViewController.m in Sources */,
 				DF73C84D1993C763009725B2 /* IstorieViewController.m in Sources */,
 				DFDAE2A119936F0300BFFA86 /* AppDelegate.m in Sources */,
 				DFDAE29D19936F0300BFFA86 /* main.m in Sources */,
+				DF2661E5199A01EC00F73010 /* JDMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +355,7 @@
 /* Begin PBXTargetDependency section */
 		DFDAE2B419936F0300BFFA86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DFDAE28C19936F0300BFFA86 /* Aplicatie */;
+			target = DFDAE28C19936F0300BFFA86 /* iSubjects */;
 			targetProxy = DFDAE2B319936F0300BFFA86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -430,10 +463,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Aplicatie/Aplicatie-Prefix.pch";
-				INFOPLIST_FILE = "Aplicatie/Aplicatie-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Aplicatie/iSubjects-Prefix.pch";
+				INFOPLIST_FILE = "Aplicatie/iSubjects-Info.plist";
+				PRODUCT_NAME = iSubjects;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -443,10 +479,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Aplicatie/Aplicatie-Prefix.pch";
-				INFOPLIST_FILE = "Aplicatie/Aplicatie-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Aplicatie/iSubjects-Prefix.pch";
+				INFOPLIST_FILE = "Aplicatie/iSubjects-Info.plist";
+				PRODUCT_NAME = iSubjects;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -466,8 +505,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "AplicatieTests/AplicatieTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "AplicatieTests/iSubjectsTests-Info.plist";
+				PRODUCT_NAME = iSubjectsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -484,8 +523,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Aplicatie/Aplicatie-Prefix.pch";
-				INFOPLIST_FILE = "AplicatieTests/AplicatieTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "AplicatieTests/iSubjectsTests-Info.plist";
+				PRODUCT_NAME = iSubjectsTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -494,7 +533,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DFDAE28819936F0300BFFA86 /* Build configuration list for PBXProject "Aplicatie" */ = {
+		DFDAE28819936F0300BFFA86 /* Build configuration list for PBXProject "iSubjects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFDAE2BD19936F0300BFFA86 /* Debug */,
@@ -503,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFDAE2BF19936F0300BFFA86 /* Build configuration list for PBXNativeTarget "Aplicatie" */ = {
+		DFDAE2BF19936F0300BFFA86 /* Build configuration list for PBXNativeTarget "iSubjects" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFDAE2C019936F0300BFFA86 /* Debug */,
@@ -512,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFDAE2C219936F0300BFFA86 /* Build configuration list for PBXNativeTarget "AplicatieTests" */ = {
+		DFDAE2C219936F0300BFFA86 /* Build configuration list for PBXNativeTarget "iSubjectsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFDAE2C319936F0300BFFA86 /* Debug */,

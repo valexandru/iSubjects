@@ -35,7 +35,7 @@
     self.lessonsList.separatorStyle = UITableViewCellSeparatorStyleNone;
     self.dict = [self.lectii.lectii objectForKey: self.titleChapter];
 
-    
+    self.title = self.titleChapter;
 }
 
 - (void)didReceiveMemoryWarning

@@ -12,6 +12,9 @@
 <UITableViewDataSource, UITableViewDelegate>
 
 @property IBOutlet UITableView *courses;
+@property IBOutlet UILabel *welcome;
 @property NSMutableArray *coursesArray;
 @property int numberOfCourses;
+
+-(IBAction)test:(id)sender;
 @end

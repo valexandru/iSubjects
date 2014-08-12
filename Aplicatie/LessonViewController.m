@@ -27,7 +27,6 @@
 {
     [super viewDidLoad];
     //setting init frame for labels
-    self.titleForView = [[UILabel alloc] initWithFrame:CGRectZero];
     self.definitie1 = [[UILabel alloc] initWithFrame:CGRectZero];
     self.definitie2 = [[UILabel alloc] initWithFrame:CGRectZero];
     self.descriere = [[UILabel alloc] initWithFrame:CGRectZero];
@@ -37,8 +36,7 @@
     self.video = [[UIWebView alloc] initWithFrame:CGRectZero];
     
     //setting the text for every label
-    self.titleForView.text =self.titleView;
-    
+    self.title=self.titleView;
     self.definitie1.text = self.def1Name;
     self.definitie1Text.text = self.def1;
     
@@ -55,13 +53,9 @@
     self.viewsInScrollView = [[NSMutableArray alloc] init];
     
     //printing the labels
-    
-    //the View Title
-    [self.titleForView setTextAlignment: NSTextAlignmentCenter];
-    [self addSubviewToScrollView: self.titleForView withHeight: 25 andDistanceBetweenViews:25];
 
     //the first Definition
-    [self addSubviewToScrollView: self.definitie1 withHeight: 25 andDistanceBetweenViews:25];
+    [self addSubviewToScrollView: self.definitie1 withHeight: 25 andDistanceBetweenViews:5];
     self.definitie1Text.layer.borderColor= [UIColor grayColor].CGColor;
     self.definitie1Text.layer.borderWidth =0.5;
     [self addSubviewToScrollView: self.definitie1Text withHeight: 60 andDistanceBetweenViews:10];

@@ -7,11 +7,29 @@
 //
 
 #import "AppDelegate.h"
+#import "JDSideMenu.h"
+#import "JDMenuViewController.h"
+#import "MainMenuViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window makeKeyAndVisible];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
+    UIViewController *menuController = [storyboard instantiateViewControllerWithIdentifier:@"side-menu"];
+    UIViewController *contentController = [storyboard instantiateViewControllerWithIdentifier:@"main-menu"];
+    
+    UIViewController *navController = [[UINavigationController alloc] initWithRootViewController:contentController];
+    JDSideMenu *sideMenu = [[JDSideMenu alloc] initWithContentController:navController
+                                                          menuController:menuController];
+    sideMenu.tapGestureEnabled = NO;
+    [sideMenu setBackgroundImage:[UIImage imageNamed:@"menuwallpaper"]];
+    self.window.rootViewController = sideMenu;
+
     // Override point for customization after application launch.
     return YES;
 }

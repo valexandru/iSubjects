@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DFDAE28C19936F0300BFFA86"
                BuildableName = "Aplicatie.app"
-               BlueprintName = "Aplicatie"
-               ReferencedContainer = "container:Aplicatie.xcodeproj">
+               BlueprintName = "iSubjects"
+               ReferencedContainer = "container:iSubjects.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DFDAE2AD19936F0300BFFA86"
                BuildableName = "AplicatieTests.xctest"
-               BlueprintName = "AplicatieTests"
-               ReferencedContainer = "container:Aplicatie.xcodeproj">
+               BlueprintName = "iSubjectsTests"
+               ReferencedContainer = "container:iSubjects.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFDAE28C19936F0300BFFA86"
             BuildableName = "Aplicatie.app"
-            BlueprintName = "Aplicatie"
-            ReferencedContainer = "container:Aplicatie.xcodeproj">
+            BlueprintName = "iSubjects"
+            ReferencedContainer = "container:iSubjects.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFDAE28C19936F0300BFFA86"
             BuildableName = "Aplicatie.app"
-            BlueprintName = "Aplicatie"
-            ReferencedContainer = "container:Aplicatie.xcodeproj">
+            BlueprintName = "iSubjects"
+            ReferencedContainer = "container:iSubjects.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFDAE28C19936F0300BFFA86"
             BuildableName = "Aplicatie.app"
-            BlueprintName = "Aplicatie"
-            ReferencedContainer = "container:Aplicatie.xcodeproj">
+            BlueprintName = "iSubjects"
+            ReferencedContainer = "container:iSubjects.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

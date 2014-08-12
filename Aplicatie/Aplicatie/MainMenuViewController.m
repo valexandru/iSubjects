@@ -26,6 +26,7 @@
 - (void)viewDidLoad
 {
     self.numberOfCourses=2;
+    self.title=@"Home";
     if (self.coursesArray==nil)
     {
         self.coursesArray = [[NSMutableArray alloc] init];
@@ -35,6 +36,7 @@
     [super viewDidLoad];
     
     self.courses.separatorStyle = UITableViewCellSeparatorStyleNone;
+    [self.welcome setCenter:self.view.center];
     // Do any additional setup after loading the view.
 }
 
@@ -49,6 +51,11 @@
     return self.numberOfCourses;
 }
 
+-(IBAction)test:(id)sender
+{
+    NSLog(@"TEST");
+}
+
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //Deselecting the row
@@ -56,11 +63,8 @@
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     id vc = [storyboard instantiateViewControllerWithIdentifier: [NSString stringWithFormat: @"%@", [self.coursesArray objectAtIndex: indexPath.row]]];
-
-    NSLog(@"%@",vc);
     
     [self.navigationController pushViewController:vc animated:YES];
-
 }
 
 -(UITableViewCell *) tableView: (UITableView *) tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
