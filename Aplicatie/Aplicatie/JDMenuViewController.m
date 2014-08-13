@@ -21,11 +21,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [FBSettings setDefaultAppID: @"1436591166630311"];
-    FBLoginView *loginView = [[FBLoginView alloc] init];
-    [self.view addSubview:loginView];
+//    [FBSettings setDefaultAppID: @"1436591166630311"];
+//    FBLoginView *loginView = [[FBLoginView alloc] init];
+//    [self.view addSubview:loginView];
     // Do any additional setup after loading the view.
 }
+
+//- (BOOL)application:(UIApplication *)application
+//didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+//{
+//    // Override point for customization after application launch.
+//    [FBLoginView class];
+//    return YES;
+//}
 //- (void)viewDidLayoutSubviews;
 //{
 //    [super viewDidLayoutSubviews];

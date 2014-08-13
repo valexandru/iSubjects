@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@interface UIImageView (additions)
+- (CGSize)imageScale;
+@end
 
 @interface LessonViewController : UIViewController
 //<UIScrollViewDelegate>
@@ -20,9 +23,10 @@
 @property IBOutlet UILabel *descriere;
 @property IBOutlet UILabel *definitie1Text;
 @property IBOutlet UILabel *definitie2Text;
-@property IBOutlet UILabel *descriereText;
+@property IBOutlet UITextView *descriereText;
 @property IBOutlet UIScrollView *MainScrollView;
 @property IBOutlet UIWebView *video;
+@property IBOutlet UIImageView *imagine;
 
 @property IBOutlet UIView *contentView;
 @property NSMutableArray *viewsInScrollView;
@@ -38,6 +42,8 @@
 @property NSString *descriereName;
 @property NSString *descr;
 @property NSString *titleView;
+@property NSString *imageName;
+@property NSString *videoName;
 
 //-(void) addScrollView;
 

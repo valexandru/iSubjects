@@ -9,6 +9,7 @@
 #import "ChapterViewController.h"
 #import "Lectii.h"
 #import "LessonViewController.h"
+#import "TestViewController.h"
 
 @interface ChapterViewController ()
 
@@ -108,30 +109,50 @@
     NSString *subchapter = [[subchapterDict allKeys] objectAtIndex:0];
     //NSLog(@"%@\n%@",[[subchapterDict allKeys] objectAtIndex:0], subchapter);
     NSArray *arrayContent = [subchapterDict valueForKey: subchapter];
-    vc.titleView= subchapter;
+    if (![subchapter isEqual:@"Test"])
+    {
+        vc.titleView= subchapter;
     
-    NSString *deflabel, *deftext;
+        NSString *deflabel, *deftext;
     
-    NSDictionary *def1 = [arrayContent objectAtIndex:0];
-    deflabel = [[def1 allKeys] objectAtIndex:0];
-    deftext = [def1 valueForKey: deflabel];
-    vc.def1Name=deflabel;
-    vc.def1=deftext;
+        NSDictionary *def1 = [arrayContent objectAtIndex:0];
+        deflabel = [[def1 allKeys] objectAtIndex:0];
+        deftext = [def1 valueForKey: deflabel];
+        vc.def1Name=deflabel;
+        vc.def1=deftext;
     
-    NSDictionary *def2 = [arrayContent objectAtIndex:1];
-    deflabel = [[def2 allKeys] objectAtIndex:0];
-    deftext = [def2 valueForKey: deflabel];
-    vc.def2Name=deflabel;
-    vc.def2=deftext;
+        NSDictionary *def2 = [arrayContent objectAtIndex:1];
+        deflabel = [[def2 allKeys] objectAtIndex:0];
+        deftext = [def2 valueForKey: deflabel];
+        vc.def2Name=deflabel;
+        vc.def2=deftext;
     
-    NSDictionary *descriere = [arrayContent objectAtIndex:2];
-    deflabel = [[descriere allKeys] objectAtIndex:0];
-    deftext = [descriere valueForKey: deflabel];
-    vc.descriereName=deflabel;
-    vc.descr=deftext;
-    NSLog(@"%@ %@",def2, deftext);
-//    vc.titleChapter = self.titleForLayout;
-   [self.navigationController pushViewController:vc animated:YES];
+        NSDictionary *descriere = [arrayContent objectAtIndex:2];
+        deflabel = [[descriere allKeys] objectAtIndex:0];
+        deftext = [descriere valueForKey: deflabel];
+        vc.descriereName=deflabel;
+        vc.descr=deftext;
+        //NSLog(@"%@ %@",def2, deftext);
+        
+        NSDictionary *imagine = [arrayContent objectAtIndex:3];
+        deflabel = [[imagine allKeys] objectAtIndex:0];
+        deftext = [imagine valueForKey: deflabel];
+        vc.imageName=deftext;
+        
+        NSDictionary *video = [arrayContent objectAtIndex:4];
+        deflabel = [[video allKeys] objectAtIndex:0];
+        deftext = [video valueForKey: deflabel];
+        vc.videoName=deftext;
+        //    vc.titleChapter = self.titleForLayout;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else
+    {
+        TestViewController* testvc = [storyboard instantiateViewControllerWithIdentifier:@"test-vc"];
+        testvc.titleView= subchapter;
+        testvc.questions= arrayContent;
+        [self.navigationController pushViewController:testvc animated:YES];
+    }
 }
 
 /*
