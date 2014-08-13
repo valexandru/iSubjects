@@ -56,21 +56,21 @@
                                       @{
                                       @"Introducere":
                                           @[
-                                              @{@"Definitia 1" : @"Lorem ipsum pix"},
-                                              @{@"Definitia 2": @"Lorem ipsum stilou"},
-                                              @{@"Descrierea": @"Trolololo"},
-                                              @{@"imagine": @"stariDeAgregare.jpg"},
-                                              @{@"video": @"http://www.youtube.com/watch?v=fDXWW5vX-64"}
+                                              @{@"Definitia 1" : @""},
+                                              @{@"Definitia 2": @""},
+                                              @{@"Transformari": @"Pentru gazul ideal, la fiecare transformare vor fi prezentate expresiile matematice ale variației parametrilor de stare, a lucrului mecanic exterior, a lucrului mecanic tehnic, a căldurii schimbate, a capacității termice masice corespunzătoare transformării și a entropiei. În relațiile de mai jos indicii 1, respectiv 2 se referă la starea inițială, respectiv cea finală a sistemului."},
+                                              @{@"imagine": @""},
+                                              @{@"video": @""}
                                               ]
                                       },
                                       @{
                                       @"Transformare izobara":
                                           @[
-                                              @{@"Definitia 1" : @"Lorem ipsum pix"},
-                                              @{@"Definitia 2": @"Lorem ipsum stilou"},
-                                              @{@"Descrierea": @"Trolololo"},
-                                              @{@"imagine": @"stariDeAgregare.jpg"},
-                                              @{@"video": @"http://www.youtube.com/watch?v=fDXWW5vX-64"}
+                                              @{@"Definitie" : @"O transformare izobară are loc la presiune constantă"},
+                                              @{@"Definitia 2": @""},
+                                              @{@"Alte informatii": @"Un exemplu de astfel de transformare apare într-un cilindru închis (sistem termodinamic izolat) în care pistonul se mișcă, însă presiunea din cilindru rămâne constantă, de exemplu presiunea atmosferică. Perechea de parametri conjugați semnificativă este p-V"},
+                                              @{@"imagine": @""},
+                                              @{@"video": @""}
                                               ]
                                       }
                                       

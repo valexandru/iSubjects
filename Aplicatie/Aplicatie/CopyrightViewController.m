@@ -34,6 +34,7 @@
     self.copyrightview.text = [NSString stringWithFormat:@"All the information used in iSubjects comes from Wikipedia and Youtube, so the copyright for them falls under their respective copyright.\n\nThe code used in the application is available on Github at: %@ ", url];
     self.copyrightview.editable=NO;
     [self.contentView addSubview:self.copyrightview];
+    
     // Do any additional setup after loading the view.
 }
 
