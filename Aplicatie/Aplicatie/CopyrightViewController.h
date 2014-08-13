@@ -10,4 +10,7 @@
 
 @interface CopyrightViewController : UIViewController
 
+@property IBOutlet UITextView* copyrightview;
+@property IBOutlet UIView* contentView;
+
 @end

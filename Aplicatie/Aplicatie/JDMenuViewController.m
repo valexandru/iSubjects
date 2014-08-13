@@ -11,6 +11,7 @@
 
 #import "JDMenuViewController.h"
 #import "AboutViewController.h"
+#import "CopyrightViewController.h"
 
 //@interface JDMenuViewController ()
 //@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
@@ -46,7 +47,9 @@
 -(IBAction)seeCopyright:(id)sender
 {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    
+    CopyrightViewController *copyrightView = [storyboard instantiateViewControllerWithIdentifier:@"copyright"];
+    [self.sideMenuController hideMenuAnimated:YES];
+    [self.navigation pushViewController:copyrightView animated:YES];
 }
 
 //- (BOOL)application:(UIApplication *)application

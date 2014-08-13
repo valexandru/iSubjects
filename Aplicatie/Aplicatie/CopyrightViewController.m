@@ -26,8 +26,26 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    // self.copyrightview = [[UITextView alloc] init];
+
+    NSURL *url = [NSURL URLWithString:@"https://github.com/valexandru/iSubjects"];
+    
+    self.copyrightview.text = [NSString stringWithFormat:@"All the information used in iSubjects comes from Wikipedia and Youtube, so the copyright for them falls under their respective copyright.\n\nThe code used in the application is available on Github at: %@ ", url];
+    self.copyrightview.editable=NO;
+    [self.contentView addSubview:self.copyrightview];
     // Do any additional setup after loading the view.
 }
+
+//- (void)textViewDidChange:(UITextView *)textView
+//{
+//    NSUInteger maxNumberOfLines = 5;
+//    NSUInteger numLines = textView.contentSize.height/textView.font.lineHeight;
+//    if (numLines > maxNumberOfLines)
+//    {
+//        textView.text = [textView.text substringToIndex:textView.text.length - 1];
+//    }
+//}
 
 - (void)didReceiveMemoryWarning
 {

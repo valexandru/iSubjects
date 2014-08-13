@@ -137,6 +137,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="seeCopyright:" destination="DlU-qB-I0r" eventType="touchUpInside" id="bvi-Jq-xzU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="joY-we-rTb">
                                 <rect key="frame" x="44" y="155" width="96" height="30"/>
@@ -162,10 +165,10 @@
             </objects>
             <point key="canvasLocation" x="-586" y="483"/>
         </scene>
-        <!--View Controller-->
+        <!--Copyright View Controller-->
         <scene sceneID="OnJ-4x-8L5">
             <objects>
-                <viewController id="tfw-MA-sOp" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="copyright" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tfw-MA-sOp" customClass="CopyrightViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KbQ-Hj-PNJ"/>
                         <viewControllerLayoutGuide type="bottom" id="8JP-XM-N2H"/>
@@ -173,8 +176,29 @@
                     <view key="view" contentMode="scaleToFill" id="etb-BR-vkH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Caa-U2-wxO">
+                                <rect key="frame" x="116" y="81" width="88" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Glw-Cw-i63">
+                                <rect key="frame" x="10" y="143" width="301" height="291"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="contentView" destination="etb-BR-vkH" id="j46-lg-R9E"/>
+                        <outlet property="copyrightview" destination="Glw-Cw-i63" id="9nq-Ts-ni8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qfi-I5-8Qp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
