@@ -40,7 +40,13 @@
 
 -(IBAction)contribute:(id)sender
 {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.google.ro"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://xinnovation.valexandru.com"]];
+}
+
+-(IBAction)seeCopyright:(id)sender
+{
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    
 }
 
 //- (BOOL)application:(UIApplication *)application

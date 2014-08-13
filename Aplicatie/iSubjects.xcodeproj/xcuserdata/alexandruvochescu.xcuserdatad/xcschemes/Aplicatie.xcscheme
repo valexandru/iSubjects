@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DFDAE28C19936F0300BFFA86"
-               BuildableName = "Aplicatie.app"
+               BuildableName = "iSubjects.app"
                BlueprintName = "iSubjects"
                ReferencedContainer = "container:iSubjects.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DFDAE2AD19936F0300BFFA86"
-               BuildableName = "AplicatieTests.xctest"
+               BuildableName = "iSubjectsTests.xctest"
                BlueprintName = "iSubjectsTests"
                ReferencedContainer = "container:iSubjects.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFDAE28C19936F0300BFFA86"
-            BuildableName = "Aplicatie.app"
+            BuildableName = "iSubjects.app"
             BlueprintName = "iSubjects"
             ReferencedContainer = "container:iSubjects.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFDAE28C19936F0300BFFA86"
-            BuildableName = "Aplicatie.app"
+            BuildableName = "iSubjects.app"
             BlueprintName = "iSubjects"
             ReferencedContainer = "container:iSubjects.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DFDAE28C19936F0300BFFA86"
-            BuildableName = "Aplicatie.app"
+            BuildableName = "iSubjects.app"
             BlueprintName = "iSubjects"
             ReferencedContainer = "container:iSubjects.xcodeproj">
          </BuildableReference>

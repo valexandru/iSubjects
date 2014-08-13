@@ -11,6 +11,7 @@
 @interface AboutViewController : UIViewController
 
 @property IBOutlet UIImageView* logo;
+@property IBOutlet UIView *contentView;
 @property IBOutlet UILabel *version;
 @property IBOutlet UILabel *person1;
 @property IBOutlet UILabel *person2;

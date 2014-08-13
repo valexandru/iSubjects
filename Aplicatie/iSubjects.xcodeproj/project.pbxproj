@@ -11,11 +11,12 @@
 		8E4AE9FB199BB45000788173 /* starideagregare.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E4AE9FA199BB45000788173 /* starideagregare.png */; };
 		8E4AE9FD199BBE1900788173 /* evaporarea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E4AE9FC199BBE1900788173 /* evaporarea.jpg */; };
 		8E4AEA00199BC28300788173 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4AE9FF199BC28300788173 /* AboutViewController.m */; };
-		8E4AEA02199BC5C800788173 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E4AEA01199BC5C800788173 /* logo.png */; };
 		DF2661E2199A014A00F73010 /* JDSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2661E1199A014A00F73010 /* JDSideMenu.m */; };
 		DF2661E5199A01EC00F73010 /* JDMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2661E4199A01EC00F73010 /* JDMenuViewController.m */; };
-		DF2661E9199A02A900F73010 /* menuwallpaper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2661E8199A02A900F73010 /* menuwallpaper@2x.png */; };
 		DF2661EC199A02EE00F73010 /* UIViewController+JDSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2661EB199A02EE00F73010 /* UIViewController+JDSideMenu.m */; };
+		DF2C8689199BE255000F944B /* menuwallpaper@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2C8688199BE255000F944B /* menuwallpaper@2x.png */; };
+		DF2C868F199C1411000F944B /* icon125.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2C868E199C1411000F944B /* icon125.png */; };
+		DF2C8692199C167D000F944B /* CopyrightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2C8691199C167D000F944B /* CopyrightViewController.m */; };
 		DF73C84D1993C763009725B2 /* IstorieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF73C84C1993C763009725B2 /* IstorieViewController.m */; };
 		DF73C8501993D953009725B2 /* Lectii.m in Sources */ = {isa = PBXBuildFile; fileRef = DF73C84F1993D953009725B2 /* Lectii.m */; };
 		DF73C8541994C18A009725B2 /* Termodinamica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF73C8531994C18A009725B2 /* Termodinamica.jpg */; };
@@ -61,14 +62,16 @@
 		8E4AE9FC199BBE1900788173 /* evaporarea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = evaporarea.jpg; sourceTree = "<group>"; };
 		8E4AE9FE199BC28300788173 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		8E4AE9FF199BC28300788173 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
-		8E4AEA01199BC5C800788173 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		DF2661E0199A014A00F73010 /* JDSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSideMenu.h; sourceTree = "<group>"; };
 		DF2661E1199A014A00F73010 /* JDSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSideMenu.m; sourceTree = "<group>"; };
 		DF2661E3199A01EC00F73010 /* JDMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMenuViewController.h; sourceTree = "<group>"; };
 		DF2661E4199A01EC00F73010 /* JDMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMenuViewController.m; sourceTree = "<group>"; };
-		DF2661E8199A02A900F73010 /* menuwallpaper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "menuwallpaper@2x.png"; path = "../menuwallpaper@2x.png"; sourceTree = "<group>"; };
 		DF2661EA199A02EE00F73010 /* UIViewController+JDSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JDSideMenu.h"; sourceTree = "<group>"; };
 		DF2661EB199A02EE00F73010 /* UIViewController+JDSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JDSideMenu.m"; sourceTree = "<group>"; };
+		DF2C8688199BE255000F944B /* menuwallpaper@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuwallpaper@2x.png"; sourceTree = "<group>"; };
+		DF2C868E199C1411000F944B /* icon125.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon125.png; sourceTree = "<group>"; };
+		DF2C8690199C167D000F944B /* CopyrightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyrightViewController.h; sourceTree = "<group>"; };
+		DF2C8691199C167D000F944B /* CopyrightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyrightViewController.m; sourceTree = "<group>"; };
 		DF73C84B1993C763009725B2 /* IstorieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IstorieViewController.h; sourceTree = "<group>"; };
 		DF73C84C1993C763009725B2 /* IstorieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IstorieViewController.m; sourceTree = "<group>"; };
 		DF73C84E1993D953009725B2 /* Lectii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lectii.h; sourceTree = "<group>"; };
@@ -135,10 +138,10 @@
 		DF072C1519991340006ABE1B /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				8E4AEA01199BC5C800788173 /* logo.png */,
+				DF2C868E199C1411000F944B /* icon125.png */,
+				DF2C8688199BE255000F944B /* menuwallpaper@2x.png */,
 				8E4AE9FC199BBE1900788173 /* evaporarea.jpg */,
 				8E4AE9FA199BB45000788173 /* starideagregare.png */,
-				DF2661E8199A02A900F73010 /* menuwallpaper@2x.png */,
 				DFDAE2D21993804B00BFFA86 /* Istorie.jpg */,
 				DFDAE2D31993804B00BFFA86 /* Fizica.jpg */,
 				DF73C8531994C18A009725B2 /* Termodinamica.jpg */,
@@ -192,6 +195,8 @@
 				DF2661E4199A01EC00F73010 /* JDMenuViewController.m */,
 				8E4AE9FE199BC28300788173 /* AboutViewController.h */,
 				8E4AE9FF199BC28300788173 /* AboutViewController.m */,
+				DF2C8690199C167D000F944B /* CopyrightViewController.h */,
+				DF2C8691199C167D000F944B /* CopyrightViewController.m */,
 				DF2661EA199A02EE00F73010 /* UIViewController+JDSideMenu.h */,
 				DF2661EB199A02EE00F73010 /* UIViewController+JDSideMenu.m */,
 				DFDAE2C5199372BF00BFFA86 /* MainMenuViewController.h */,
@@ -325,14 +330,14 @@
 			files = (
 				DFDAE2D51993804B00BFFA86 /* Fizica.jpg in Resources */,
 				DF73C8581994C8FE009725B2 /* Optica.jpg in Resources */,
-				8E4AEA02199BC5C800788173 /* logo.png in Resources */,
+				DF2C8689199BE255000F944B /* menuwallpaper@2x.png in Resources */,
+				DF2C868F199C1411000F944B /* icon125.png in Resources */,
 				DF73C8541994C18A009725B2 /* Termodinamica.jpg in Resources */,
 				8E4AE9FD199BBE1900788173 /* evaporarea.jpg in Resources */,
 				DFDAE2A919936F0300BFFA86 /* Images.xcassets in Resources */,
 				DF73C8561994C5B4009725B2 /* Mecanica.jpg in Resources */,
 				DFDAE2D41993804B00BFFA86 /* Istorie.jpg in Resources */,
 				8E4AE9FB199BB45000788173 /* starideagregare.png in Resources */,
-				DF2661E9199A02A900F73010 /* menuwallpaper@2x.png in Resources */,
 				DF73C85A1994CA29009725B2 /* Electricitate.jpg in Resources */,
 				DFDAE29B19936F0300BFFA86 /* InfoPlist.strings in Resources */,
 				DFDAE2A419936F0300BFFA86 /* Main.storyboard in Resources */,
@@ -356,6 +361,7 @@
 			files = (
 				DF73C85D1994CF5A009725B2 /* ChapterViewController.m in Sources */,
 				DFDAE2D81993871700BFFA86 /* FizicaViewController.m in Sources */,
+				DF2C8692199C167D000F944B /* CopyrightViewController.m in Sources */,
 				DFDAE2C7199372BF00BFFA86 /* MainMenuViewController.m in Sources */,
 				DF73C8501993D953009725B2 /* Lectii.m in Sources */,
 				DF2661E2199A014A00F73010 /* JDSideMenu.m in Sources */,

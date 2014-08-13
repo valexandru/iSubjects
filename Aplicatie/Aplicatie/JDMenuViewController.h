@@ -18,5 +18,6 @@
 
 -(IBAction)aboutUS:(id)sender;
 -(IBAction)contribute:(id)sender;
+-(IBAction)seeCopyright:(id)sender;
 
 @end
