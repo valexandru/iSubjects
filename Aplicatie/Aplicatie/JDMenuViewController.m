@@ -10,6 +10,7 @@
 #import <FacebookSDK/FacebookSDK.h>
 
 #import "JDMenuViewController.h"
+#import "AboutViewController.h"
 
 //@interface JDMenuViewController ()
 //@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
@@ -25,6 +26,21 @@
 //    FBLoginView *loginView = [[FBLoginView alloc] init];
 //    [self.view addSubview:loginView];
     // Do any additional setup after loading the view.
+}
+
+-(IBAction)aboutUS:(id)sender
+{
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    AboutViewController *about = [storyboard instantiateViewControllerWithIdentifier:@"about"];
+    [self.sideMenuController hideMenuAnimated:YES];
+    [self.navigation pushViewController:about animated:YES];
+    
+
+}
+
+-(IBAction)contribute:(id)sender
+{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.google.ro"]];
 }
 
 //- (BOOL)application:(UIApplication *)application

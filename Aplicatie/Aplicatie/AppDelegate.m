@@ -10,6 +10,7 @@
 #import "JDSideMenu.h"
 #import "JDMenuViewController.h"
 #import "MainMenuViewController.h"
+#import "JDMenuViewController.h"
 
 @implementation AppDelegate
 
@@ -20,10 +21,11 @@
     
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
-    UIViewController *menuController = [storyboard instantiateViewControllerWithIdentifier:@"side-menu"];
+    JDMenuViewController *menuController = [storyboard instantiateViewControllerWithIdentifier:@"side-menu"];
     UIViewController *contentController = [storyboard instantiateViewControllerWithIdentifier:@"main-menu"];
     
-    UIViewController *navController = [[UINavigationController alloc] initWithRootViewController:contentController];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:contentController];
+    menuController.navigation = navController;
     JDSideMenu *sideMenu = [[JDSideMenu alloc] initWithContentController:navController
                                                           menuController:menuController];
     sideMenu.tapGestureEnabled = NO;

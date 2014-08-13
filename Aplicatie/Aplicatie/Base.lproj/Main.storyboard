@@ -22,7 +22,7 @@
         <!--About View Controller-->
         <scene sceneID="2zm-ZB-0ye">
             <objects>
-                <viewController id="Hzg-54-WHk" customClass="AboutViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="about" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Hzg-54-WHk" customClass="AboutViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ymv-xC-Fbn"/>
                         <viewControllerLayoutGuide type="bottom" id="2Tg-oy-W90"/>
@@ -126,7 +126,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Hzg-54-WHk" kind="push" id="ncz-JP-zCp"/>
+                                    <action selector="aboutUS:" destination="DlU-qB-I0r" eventType="touchUpInside" id="UE6-9A-SBe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HT0-9v-x84">
@@ -146,6 +146,9 @@
                                     <color key="titleColor" red="0.013790658238496416" green="0.011646359965838933" blue="0.015349014945652217" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="contribute:" destination="DlU-qB-I0r" eventType="touchUpInside" id="Lnp-T5-BUf"/>
+                                </connections>
                             </button>
                         </subviews>
                     </view>

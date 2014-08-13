@@ -10,7 +10,13 @@
 
 @interface JDMenuViewController : UIViewController
 
+@property UINavigationController *navigation;
+
 @property IBOutlet UIButton* about;
 @property IBOutlet UIButton* copyright;
 @property IBOutlet UIButton* contribute;
+
+-(IBAction)aboutUS:(id)sender;
+-(IBAction)contribute:(id)sender;
+
 @end
