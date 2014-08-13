@@ -36,6 +36,7 @@
 		DFDAE2D41993804B00BFFA86 /* Istorie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFDAE2D21993804B00BFFA86 /* Istorie.jpg */; };
 		DFDAE2D51993804B00BFFA86 /* Fizica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFDAE2D31993804B00BFFA86 /* Fizica.jpg */; };
 		DFDAE2D81993871700BFFA86 /* FizicaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAE2D71993871700BFFA86 /* FizicaViewController.m */; };
+		DFF3568B199A761000E45027 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF3568A199A761000E45027 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		DFDAE2D31993804B00BFFA86 /* Fizica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fizica.jpg; sourceTree = "<group>"; };
 		DFDAE2D61993871700BFFA86 /* FizicaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FizicaViewController.h; sourceTree = "<group>"; };
 		DFDAE2D71993871700BFFA86 /* FizicaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FizicaViewController.m; sourceTree = "<group>"; };
+		DFF3568A199A761000E45027 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFDAE29319936F0300BFFA86 /* CoreGraphics.framework in Frameworks */,
+				DFF3568B199A761000E45027 /* FacebookSDK.framework in Frameworks */,
 				DFDAE29519936F0300BFFA86 /* UIKit.framework in Frameworks */,
 				DFDAE29119936F0300BFFA86 /* Foundation.framework in Frameworks */,
 			);
@@ -153,6 +156,7 @@
 		DFDAE28F19936F0300BFFA86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DFF3568A199A761000E45027 /* FacebookSDK.framework */,
 				DFDAE29019936F0300BFFA86 /* Foundation.framework */,
 				DFDAE29219936F0300BFFA86 /* CoreGraphics.framework */,
 				DFDAE29419936F0300BFFA86 /* UIKit.framework */,
@@ -465,6 +469,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Aplicatie/iSubjects-Prefix.pch";
 				INFOPLIST_FILE = "Aplicatie/iSubjects-Info.plist";
@@ -481,6 +489,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Aplicatie/iSubjects-Prefix.pch";
 				INFOPLIST_FILE = "Aplicatie/iSubjects-Info.plist";
