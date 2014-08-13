@@ -2,8 +2,8 @@
 //  AboutViewController.m
 //  iSubjects
 //
-//  Created by Iulian-Bogdan Vlad on 13/08/14.
-//  Copyright (c) 2014 Iulian-Bogdan Vlad. All rights reserved.
+//  Created by Alexandru Vochescu on 13/08/14.
+//  Copyright (c) 2014 Alexandru Vochescu . All rights reserved.
 //
 
 #import "AboutViewController.h"
